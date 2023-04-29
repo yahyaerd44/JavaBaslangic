@@ -27,6 +27,8 @@ public class C09_Pratik {
         System.out.println("alt satır çalıştır");
 
          ================================================================
+
+         */
         int sayi =0;
 
         while (true){// sonsuz döngü
@@ -39,23 +41,11 @@ public class C09_Pratik {
         }
         System.out.println("alt satır çalıştır");
 
-         */
-      int sayi=0;
-        while (true){
-            sayi++;
 
-            if (sayi>99){// eğer sayi 10 dan büyük olduğu anda döngü durur
-                break;
-            }
 
-            if (sayi==20){
-                continue;
-
-            }
-            System.out.println(sayi);
         }
 
 
     }
 
-}
+
