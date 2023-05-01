@@ -14,5 +14,13 @@ public class C02_ForDongusu {
                     }
          */
 
+        for (int i = 0; i <=10; i++) {
+
+            System.out.println("merhaba:"+i);
+        }
+        for (int i = 10; i >0 ; i--) {
+            System.out.println("merhaba"+i);
+
+        }
     }
 }

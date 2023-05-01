@@ -7,6 +7,13 @@ public class C01_StringVeriTipi {
         // String bir class tır
         String isim = "Hamza";
         System.out.println(isim);
+        System.out.println(isim.indexOf(""));
 
+
+        }
     }
-}
+
+
+
+
+
