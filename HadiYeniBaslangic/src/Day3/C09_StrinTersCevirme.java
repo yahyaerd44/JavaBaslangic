@@ -7,6 +7,7 @@ public class C09_StrinTersCevirme {
         String metin = "Ben Javayi Seviyorum";
         String cevrilenMetin = cevir(metin);
         System.out.println("Ters Cevrilen:==>"+cevrilenMetin);
+        System.out.println(metin);
     }
 
 
@@ -16,6 +17,7 @@ public class C09_StrinTersCevirme {
                 return metin;
             return cevir(metin.substring(1)) + metin.charAt(0);
         }
+
 
     }
     }
